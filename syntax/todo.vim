@@ -5,7 +5,7 @@ syntax keyword potionKeyword class return
 syntax keyword potionFunction print join string
 
 syntax match prior "!![0-9A-Za-z_]*"
-syntax match done "^[xp].*"
+syntax match done "^[dxp].*"
 syntax match skipped "^s.*"
 syntax match priority "^\v\(.\)"
 syntax match tPriority "^\v\(0\)"
